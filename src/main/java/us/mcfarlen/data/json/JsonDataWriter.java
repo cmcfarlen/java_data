@@ -1,6 +1,8 @@
 
-package us.mcfarlen.javassist;
+package us.mcfarlen.data.json;
 
+import us.mcfarlen.data.Data;
+import us.mcfarlen.data.DataWriter;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonGenerator;
 import java.io.ByteArrayOutputStream;

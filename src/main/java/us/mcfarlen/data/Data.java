@@ -1,4 +1,4 @@
-package us.mcfarlen.javassist;
+package us.mcfarlen.data;
 
 import com.google.common.base.Joiner;
 import java.util.ArrayList;
@@ -153,7 +153,7 @@ public class Data {
    /**
     * Convenience for asMap().get(...)
     */
-   Data get(String key) {
+   public Data get(String key) {
       return asMap().get(key);
    }
 
@@ -168,7 +168,7 @@ public class Data {
     * @param elist
     * @return The data object.
     */
-   Data getIn(Object... elist) {
+   public Data getIn(Object... elist) {
       Data d = this;
       for (Object o: elist) {
          if (o instanceof String) {
@@ -203,7 +203,7 @@ public class Data {
     * @param elist
     * @return The data after it is set to v (so essentially v).
     */
-   Data updateIn(Data v, Object... elist) {
+   public Data updateIn(Data v, Object... elist) {
       Data d = getIn(elist);
       return d.set(v);
    }

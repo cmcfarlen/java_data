@@ -1,6 +1,8 @@
 
-package us.mcfarlen.javassist;
+package us.mcfarlen.data.json;
 
+import us.mcfarlen.data.json.JsonDataReader;
+import us.mcfarlen.data.Data;
 import org.junit.Test;
 
 /**

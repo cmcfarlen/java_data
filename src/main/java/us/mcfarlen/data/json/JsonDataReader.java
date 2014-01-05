@@ -1,6 +1,8 @@
 
-package us.mcfarlen.javassist;
+package us.mcfarlen.data.json;
 
+import us.mcfarlen.data.DataReader;
+import us.mcfarlen.data.Data;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;

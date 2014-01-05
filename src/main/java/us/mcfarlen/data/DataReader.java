@@ -1,5 +1,5 @@
 
-package us.mcfarlen.javassist;
+package us.mcfarlen.data;
 
 import java.io.InputStream;
 

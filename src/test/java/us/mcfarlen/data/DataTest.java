@@ -1,5 +1,6 @@
-package us.mcfarlen.javassist;
+package us.mcfarlen.data;
 
+import us.mcfarlen.data.Data;
 import static junit.framework.Assert.*;
 import org.junit.Test;
 
