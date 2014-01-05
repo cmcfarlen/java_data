@@ -1,5 +1,5 @@
 
-package yinst.yahoo.javassist_test;
+package us.mcfarlen.javassist;
 
 /**
  *

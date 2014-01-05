@@ -1,4 +1,4 @@
-package yinst.yahoo.javassist_test;
+package us.mcfarlen.javassist;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

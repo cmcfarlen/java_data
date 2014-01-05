@@ -1,5 +1,5 @@
 
-package yinst.yahoo.javassist_test;
+package us.mcfarlen.javassist;
 
 import java.io.IOException;
 import java.util.HashMap;
