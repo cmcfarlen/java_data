@@ -22,6 +22,7 @@ import java.util.Objects;
  * Data ends up dumping a lot of type safety for convenience.
  */
 public class Data {
+
    private Object o;
 
    private Data(Object o) {
@@ -296,6 +297,11 @@ public class Data {
          m.put((String)data[i], d);
       }
       return new Data(m);
+   }
+
+   public static Data wrap(Object object) {
+      // TODO validate object type
+      return new Data(object);
    }
 
    public int toInt() {

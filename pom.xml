@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>us.mcfarlen.javassist</groupId>
-  <artifactId>javassist_test</artifactId>
+  <groupId>us.mcfarlen.java_data</groupId>
+  <artifactId>java-data</artifactId>
   <version>0.1.0</version>
   <packaging>jar</packaging>
 
-  <name>javassist_test</name>
+  <name>java_data</name>
   <url>http://maven.apache.org</url>
     <build>
         <plugins>
